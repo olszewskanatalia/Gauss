@@ -36,4 +36,3 @@ int sed(Matrix *mat, Matrix *b, int kol)
 
         return 0;
 }
-
