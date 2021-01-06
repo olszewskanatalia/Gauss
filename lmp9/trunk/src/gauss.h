@@ -7,6 +7,10 @@
  * Zwraca 0 - elimnacja zakonczona sukcesem
  * Zwraca 1 - macierz osobliwa - dzielenie przez 0
  */
+
+
+int sed(Matrix *mat, Matrix *b, int c); //selekcja elementu diagonalnego 
+
 int eliminate(Matrix *mat, Matrix *b);
 
 #endif
