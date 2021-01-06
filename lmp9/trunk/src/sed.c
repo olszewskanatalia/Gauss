@@ -1,6 +1,7 @@
-// program sed
 
 #include "mat_io.h"
+
+// selekcja elementu diagonalnego
 
 int sed(Matrix *mat, Matrix *b, int kol)
 {
