@@ -9,7 +9,6 @@
  */
 
 
-int sed(Matrix *mat, Matrix *b, int c); //selekcja elementu diagonalnego 
 
 int eliminate(Matrix *mat, Matrix *b);
 
