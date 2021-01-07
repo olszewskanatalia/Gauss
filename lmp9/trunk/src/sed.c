@@ -4,12 +4,13 @@
 
 int sed(Matrix *mat, Matrix *b, int kol)
 {
+	int n = b->r;
 	int max = mat->data[kol][kol];
 	int wiersz = kol;
 	int i = kol + 1;
 	int k = 0;
 
-	for(; i < mat -> r; i ++)  // wyszukuje najwiekszej wartosci pod diagonala
+	for(; i < n; i ++)  // wyszukuje najwiekszej wartosci pod diagonala
 	{
 		if(max < mat->data[i][kol] && mat->data[i][kol] != 0)
 		{
